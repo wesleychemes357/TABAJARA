@@ -1,6 +1,6 @@
 body{ /*o * é usado para englobar estilos em todo o documento, como o head, meta, etc...*/
     margin: 0; 
-    background-color: rgb(142, 123, 0);
+    background-color: rgba(243,205,13,255);
     font-family: cursive;
 }
 .aparecer{
@@ -16,7 +16,7 @@ body{ /*o * é usado para englobar estilos em todo o documento, como o head, met
 .cabecalho{
     width: 100%;
     height: 23vh;
-    background-color: rgb(39, 31, 58);
+    background-color: rgba(54,16,135,255);  
     display: flex;
     flex-wrap: wrap;
 }
@@ -59,7 +59,7 @@ footer{
     margin-top: 30px;
     width: 100%;
     height: 20vh;
-    background-color: rgb(39, 31, 58);
+    background-color: rgba(54,16,135,255);
     display: flex;
     flex-wrap: wrap;
 }
