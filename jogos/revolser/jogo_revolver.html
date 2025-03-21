@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Roleta russa</title>
+	<link rel="stylesheet" type="text/css" href="../../css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/revolver.css">
+</head>
+<body>
+	<header>
+		<div class="cabecalho">
+				<div class="cabecalho_juscontem">
+					<img src="../../img/logo.png" width="200px" height="100px" alt="logo da empresa">
+					<h1>Roleta russa</h1>
+				</div>
+					<div class="cinquenta_cabecalho">
+						<img class="espaçamento_img" src="../../img/user.png" width="50" height="50">
+						<img class="espaçamento_img" src="../../img/engrenage.png" width="50" height="50">
+					</div>
+					   <div class="cem_cabecalho">
+							<a href="../../jogos.html">Voltar</a>
+						</div>
+			</div>
+		<div>
+		</header>
+		<div id="fino">
+	<form>
+		<input type="button" value="°" id="HACK"  onclick="iniciar_hack()">
+	</form>
+</div>
+	<div id="lugar_lamparina">
+	<img id="lamparina" src="img/lamparina.png" width="280px" height="280px" alt="">
+	</div>
+<a href="../../jogos.html">voltar</a>
+<div id="reto">
+	<h1 id="roleta">ROLETA RUSSA DO IF</h1>
+	</div>
+	<div class="">
+		<h3>o revolver tem a capacidade para 6 munições, mas somente uma está no tambor</h3>
+		<h3>Tente advinhar qual câmara está municiada, se você errar, mais uma munição será inserida, se você acertar, VOCÊ LEVA CHUMBO,</h3>
+		<h3>As mensagens exibidas mostram o quão perto a ÚLTIMA MUNIÇÃO DIGITADA chegou perto da ÚLTIMA MUNIÇÃO INSERIDA, ou seja você ainda está refem da probabilidade</h3>
+		<h3>exemplo: digitei 2 e a mensagem exibida foi passou raspando, significa que a munição na PRIMEIRA CÃMARA está na posição 1 ou 3, já a SEGUNDA CÃMARA, não sabemos onde está.</h3>
+		<h3>distância entre as balas</h3>
+	</div>
+	<li>raspando: 1 bala</li>
+	<li>perto: 2 bala</li>
+	<li>longe: 3 bala</li>
+	<li>longe demais: 4 balas</li>
+	<li>longe demaismais: >4 balas</li>
+	<h3>Escolha o limite de munições em seu tambor</h3>
+	<form>
+		<input type="number" value="6" id="limite_revolver" >
+	<div id="inicio">
+	
+	<input type="button" value="INICIAR" id="fds" onclick="iniciar(limite_revolver.value)">
+	</div>
+	
+		<h5 id="jogo"></h5>
+		
+		<div id="inicio">
+	<div id="mesa">
+		<img id="revolver38" src="img/revolver38.png" alt="revolver">
+		<div id="municoes">
+		</div>
+	</div>
+</div>
+	</form>
+<script src="variaveis_revolver.js"></script>
+<script src="resolução_revolver.js"></script>
+
+</body>
+</html>

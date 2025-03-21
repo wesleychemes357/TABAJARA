@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jogo da velha</title>
+	<link rel="stylesheet" type="text/css" href="../../css/css.css">
+ 	<link rel="stylesheet" type="text/css" href="css/jogo_da_velha.css">
+</head>
+<body>
+    <header id="main_cabecalho">
+    </header>
+<a href="../../jogos.html">voltar</a>
+<div id="incio">
+	<h1>JOGO DO VELHo</h1>
+	<h3>O jogo do velho lembra muito o jogo da velha, só que aqui é do velho</h3>
+	<h3>Tente fazer uma sequência de 3, tando na horizontal, na vertical ou na diagonal, se vc perder, VOCÊ PERDERÁ</h3>
+</div>
+
+	<form>
+        <div id="inicio">
+           <h2>Jogar com...</h2>
+        </div>    
+	<div id="inicio">
+		<input type="button" value="IA" id="fds" onclick="iniciar_game(true, substituicao)">
+        <input type="button" value="player2" id="fds" onclick="iniciar_game(false,substituicao)" >
+    </div>
+	<div id="inicio">
+		
+		<div style="display: flex;"><h4>jogador1: </h4>
+			 <h4 class="pontuacao">0</h4></div>
+
+		<div style="display: flex;"><h4>jogador2: </h4>
+			 <h4 class="pontuacao">0</h4></div>
+	</div>
+	</div>
+<div id="inicio">
+	<div id="substituicao" class="sumir">
+	<div id="jogo">
+		<div>
+        	<input type="button" class="jogo_velha" value="0" onclick="jogada_player(0)">
+			<input type="button" class="jogo_velha" value="0" onclick="jogada_player(1)">
+			<input type="button" class="jogo_velha" value="0" onclick="jogada_player(2)">
+		</div>
+		<div>
+			<input type="button" class="jogo_velha" value="0" onclick="jogada_player(3)">
+			<input type="button" class="jogo_velha" value="0" onclick="jogada_player(4)">
+			<input type="button" class="jogo_velha" value="0" onclick="jogada_player(5)">	
+		</div>
+		<div>
+			<input type="button" class="jogo_velha" value="0" onclick="jogada_player(6)">
+			<input type="button" class="jogo_velha" value="0" onclick="jogada_player(7)">
+			<input type="button" class="jogo_velha" value="0" onclick="jogada_player(8)">	
+		</div>
+    </div>
+	</div>	
+ </div>
+<div id="inicio">
+ <div id="substituicao2" class="sumir">
+		<div id="quadrado_vitoria_jogo_velha">
+			<h1 id="texto_vitoria"></h1>
+			<div id="inicio">
+				<input type="button" value="rejogar" id="fds" onclick="rejogar()">
+			</div>
+		</div>
+	</div>
+</div>
+ <footer id="main_rodape">
+</footer>
+	</form>
+	<script src="../../variavel.js"></script>
+	<script src="../../substituir.js"></script>
+	<script type="text/javascript" src="codigo.js"></script>
+    <script type="text/javascript" src="vitoria.js"></script>
+</body>
+</html>

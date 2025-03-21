@@ -1,0 +1,143 @@
+body{ /*o * é usado para englobar estilos em todo o documento, como o head, meta, etc...*/
+    margin: 0; 
+    background-color: rgb(142, 123, 0);
+    font-family: cursive;
+}
+.aparecer{
+    display: block;
+}
+.sumir{
+    display: none;
+}
+.grid_cemporcento{
+    display: grid;
+    width: 50%;
+}
+.cabecalho{
+    width: 100%;
+    height: 23vh;
+    background-color: rgb(39, 31, 58);
+    display: flex;
+    flex-wrap: wrap;
+}
+.cabecalho_juscontem{
+    width: 30%;
+    justify-content: space-around;
+    display: flex;
+    position: absolute;
+}
+.cinquenta{
+    width: 50%;
+}
+.cem_cabecalho{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.cem_cabecalho a{
+    border-width: 0px;
+    margin-right: 5px;
+    color: antiquewhite;
+    font-size: 25px;
+    border-bottom-width: 3px;
+    border-color: antiquewhite;
+    border-style: solid;
+    display: inline;
+    text-decoration: none;
+}
+.cem_cabecalho a:hover{
+    border-bottom-width: 6px;
+}
+.cinquenta_cabecalho{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+}
+footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(39, 31, 58);
+    display: flex;
+    flex-wrap: wrap;
+}
+.cinquenta_rodape{
+    display: flex;
+    justify-content: flex-end;
+}
+.espaçamento_img{
+    margin-right: 7px;
+    margin-top: 7px;
+}
+#wallpaper{
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+}
+#textos_wallpaper{
+    width: 35%;
+    position: absolute;
+    background-position: bottom;
+    bottom: 0;
+    color: white;
+    background: linear-gradient(to right, black, transparent);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#botoes_wallpaper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+}
+.botao:nth-of-type(1){transform: scaleX(-1);} /*nth type, escolhe a posção do class e */
+.botao:hover{ /*hover, é quando passa o mouse por cima*/
+    opacity: 20%;
+    cursor: pointer;
+}
+.cem_flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.cem_grid{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+.substituir_blocos{
+    width: 40%;
+}
+.quadrados_jogos{
+    margin-top: 20px;
+    width: 450px;
+	height: 16vh;
+	border-radius: 10%;
+	border-color: black;
+	border-style: solid;
+	background-color: rgb(8, 139, 4);
+	color: white;
+	font-size: 28px;
+}
+.quadrado_login{
+    margin-top: 20px;
+    width: 40%;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    height: 40vh;
+}
+.quadrado_login div{
+    display: flex;
+    justify-content: space-between;
+}
+#jesse_pinkman img{
+    width: 100%;
+    height: 100%;
+}
